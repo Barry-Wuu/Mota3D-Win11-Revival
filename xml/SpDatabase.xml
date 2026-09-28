@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spData>
+
+	<sp>
+		<name>						sp0					</name>
+		<index>						0					</index>
+		<spText>					火炎					</spText>
+		<effectClass>				FlameEffectMotion	</effectClass>
+		<target>					enemy				</target>
+		<duration>					0					</duration>
+		<durationType>				instant				</durationType>
+		<statesType>				hitPoint			</statesType>
+		<valueType>					damageDefence		</valueType>
+		<currentLevel>				0					</currentLevel>
+		<sound>						Fire				</sound>
+		<levelPlus>					0.1					</levelPlus>
+		
+		<list>	1	</list>
+		<list>	2	</list>
+		<list>	3	</list>		
+	</sp>
+
+	<sp>
+		<name>						sp1					</name>
+		<index>						1					</index>
+		<spText>					麻痺					</spText>
+		<effectClass>				ElecEffectMotion	</effectClass>
+		<target>					enemy				</target>
+		<duration>					1					</duration>
+		<durationType>				actionDelay			</durationType>
+		<statesType>				action				</statesType>
+		<changeType>				plus				</changeType>
+		<value>						1					</value>	
+		<currentLevel>				0					</currentLevel>
+		<sound>						Fire				</sound>
+		<levelPlus>					1					</levelPlus>
+		
+		<list>	2	</list>
+		<list>	4	</list>
+		<list>	5	</list>
+		<list>	6	</list>
+	</sp>
+
+	<sp>
+		<name>						sp2					</name>
+		<index>						2					</index>
+		<spText>					傷害加乘				</spText>
+		<effectClass>				DamageUpMotion		</effectClass>
+		<target>					self				</target>
+		<duration>					3					</duration>
+		<durationType>				time				</durationType>
+		<statesType>				damage				</statesType>
+		<changeType>				muti				</changeType>
+		<value>						0.25				</value>	
+		<currentLevel>				0					</currentLevel>
+		<sound>						Buffing				</sound>
+		<levelPlus>					0.1					</levelPlus>
+		
+		<list>	1	</list>
+		<list>	7	</list>
+		<list>	9	</list>
+	</sp>
+
+	<sp>
+		<name>						sp3					</name>
+		<index>						3					</index>
+		<spText>					防禦加乘				</spText>
+		<effectClass>				DefenceUpMotion		</effectClass>
+		<target>					self				</target>
+		<duration>					3					</duration>
+		<durationType>				time				</durationType>
+		<statesType>				defence				</statesType>
+		<changeType>				muti				</changeType>
+		<value>						0.5					</value>
+		<currentLevel>				0					</currentLevel>
+		<sound>						Buffing				</sound>
+		<levelPlus>					0.1					</levelPlus>
+		
+		<list>	3	</list>
+		<list>	10	</list>
+		<list>	8	</list>
+	</sp>
+	
+</spData>

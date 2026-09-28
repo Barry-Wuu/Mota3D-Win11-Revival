@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stage>
+	<numRows>		9			</numRows>
+	<numLines>		9			</numLines>
+	
+	<row>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+	</row>
+	<row>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+	</row>
+	<row>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+	</row>
+	<row>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="1" texture="Ground1"/>
+	</row>
+	<row>
+		<line level="1" texture="BrickRoad1"/>
+		<line level="1" texture="BrickRoad3"/>
+		<line level="1" texture="BrickRoad1"/>
+		<line level="1" texture="BrickRoad1"/>
+		<line level="1" texture="BrickRoad3"/>
+		<line level="1" texture="BrickRoad1"/>
+		<line level="1" texture="BrickRoad1"/>
+		<line level="1" texture="BrickRoad3"/>
+		<line level="1" texture="BrickRoad1"/>
+	</row>
+	<row>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="1" texture="Ground1"/>
+	</row>
+	<row>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+	</row>
+	<row>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+	</row>
+	<row>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="-1" texture="Ground1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="-1" texture="Ground1"/>
+	</row>
+	
+</stage>

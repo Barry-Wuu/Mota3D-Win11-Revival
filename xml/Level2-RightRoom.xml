@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stage>
+	<numRows>		9			</numRows>
+	<numLines>		9			</numLines>
+	
+	<row>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+	</row>
+	
+	<row>
+		<line level="1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+	</row>
+	
+	<row>
+		<line level="1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="5" texture="Ground5"/>
+		<line level="4" texture="Ground5"/>
+		<line level="3" texture="Ground5"/>
+		<line level="2" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+	</row>
+	
+	<row>
+		<line level="1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="5" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+	</row>
+	
+	<row>
+		<line level="1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="5" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+	</row>
+	
+	<row>
+		<line level="1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="5" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+	</row>
+	
+	<row>
+		<line level="1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="5" texture="Ground5"/>
+		<line level="4" texture="Ground5"/>
+		<line level="3" texture="Ground5"/>
+		<line level="2" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+	</row>
+	
+	<row>
+		<line level="1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="-1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+	</row>
+	
+	<row>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+		<line level="1" texture="Ground5"/>
+	</row>
+	
+	<surfaceItem line="6" row="5" itemName="MonsterI-Boss2"/>
+	
+	<surfaceItem line="1" row="1" itemName="MonsterO1"/>
+	<surfaceItem line="1" row="9" itemName="MonsterO1"/>
+	<surfaceItem line="9" row="1" itemName="MonsterO1"/>
+	<surfaceItem line="9" row="9" itemName="MonsterO1"/>
+	<surfaceItem line="7" row="4" itemName="MonsterG1"/>
+	<surfaceItem line="7" row="6" itemName="MonsterG1"/>
+	
+	<surfaceItem line="3" row="5" itemName="Ink"/>
+	<surfaceItem line="4" row="1" itemName="HealPotionA"/>
+	<surfaceItem line="9" row="6" itemName="SPBook3"/>
+	<surfaceItem line="6" row="1" itemName="HealPotionA"/>
+	<surfaceItem line="4" row="9" itemName="HealPotionA"/>
+	<surfaceItem line="9" row="4" itemName="SPBook2"/>
+	<surfaceItem line="6" row="9" itemName="HealPotionA"/>
+	
+</stage>

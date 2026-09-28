@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stage>
+	<numRows>		9				</numRows>
+	<numLines>		5				</numLines>
+	
+	<row>
+		<line level="1" texture="PillerTexture1"/>
+		<line level="1" texture="PillerTexture1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="1" texture="PillerTexture1"/>
+		<line level="1" texture="PillerTexture1"/>
+	</row>
+	<row>
+		<line level="1" texture="PillerTexture1"/>
+		<line level="1" texture="PillerTexture1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="1" texture="PillerTexture1"/>
+		<line level="1" texture="PillerTexture1"/>
+	</row>
+	<row>
+		<line level="1" texture="PillerTexture1"/>
+		<line level="1" texture="PillerTexture1"/>
+		<line level="1" texture="BrickRoad2"/>
+		<line level="1" texture="PillerTexture1"/>
+		<line level="1" texture="PillerTexture1"/>
+	</row>
+	<row>
+		<line level="2" texture="PillerTexture1"/>
+		<line level="2" texture="PillerTexture1"/>
+		<line level="2" texture="BrickRoad2"/>
+		<line level="2" texture="PillerTexture1"/>
+		<line level="2" texture="PillerTexture1"/>
+	</row>
+	<row>
+		<line level="3" texture="PillerTexture1"/>
+		<line level="3" texture="PillerTexture1"/>
+		<line level="3" texture="BrickRoad2"/>
+		<line level="3" texture="PillerTexture1"/>
+		<line level="3" texture="PillerTexture1"/>
+	</row>
+	<row>
+		<line level="4" texture="PillerTexture1"/>
+		<line level="4" texture="PillerTexture1"/>
+		<line level="4" texture="BrickRoad2"/>
+		<line level="4" texture="PillerTexture1"/>
+		<line level="4" texture="PillerTexture1"/>
+	</row>
+	<row>
+		<line level="4" texture="PillerTexture1"/>
+		<line level="4" texture="PillerTexture1"/>
+		<line level="4" texture="BrickRoad2"/>
+		<line level="4" texture="PillerTexture1"/>
+		<line level="4" texture="PillerTexture1"/>
+	</row>
+	<row>
+		<line level="4" texture="PillerTexture1"/>
+		<line level="7" texture="BrickGround1"/>
+		<line level="4" texture="BrickRoad2"/>
+		<line level="7" texture="BrickGround1"/>
+		<line level="4" texture="PillerTexture1"/>
+	</row>
+	<row>
+		<line level="4" texture="PillerTexture1"/>
+		<line level="7" texture="BrickGround1"/>
+		<line level="4" texture="BrickRoad2"/>
+		<line level="7" texture="BrickGround1"/>
+		<line level="4" texture="PillerTexture1"/>
+	</row>
+	
+	
+	<surfaceItem line="3" row="8" itemName="NPC1"/>
+	<surfaceItem line="3" row="7" itemName="WoodKey"/>
+	
+	<surfaceItem line="1" row="8" itemName="Ink"/>
+	<surfaceItem line="5" row="8" itemName="HealPotionA"/>
+	
+</stage>

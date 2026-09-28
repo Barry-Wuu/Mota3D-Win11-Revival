@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stage>
+	<numRows>		5				</numRows>
+	<numLines>		5				</numLines>
+	
+	<row>
+		<line level="1" texture="GroundConer1" rotate="2"/>
+		<line level="1" texture="GroundEdge1" rotate="2"/>
+		<line level="1" texture="GroundEdge1" rotate="2"/>
+		<line level="1" texture="GroundEdge1" rotate="2"/>
+		<line level="1" texture="GroundConer1" rotate="1"/>
+	</row>
+	
+	<row>
+		<line level="1" texture="GroundEdge1" rotate="3"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="GroundEdge1" rotate="1"/>
+	</row>
+	
+	<row>
+		<line level="1" texture="GroundEdge1" rotate="3"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="GroundEdge1" rotate="1"/>
+	</row>
+	
+	<row>
+		<line level="1" texture="GroundEdge1" rotate="3"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="GroundEdge1" rotate="1"/>
+	</row>
+	
+	<row>
+		<line level="1" texture="GroundConer1" rotate="3"/>
+		<line level="1" texture="GroundEdge1"/>
+		<line level="1" texture="GroundEdge1"/>
+		<line level="1" texture="GroundEdge1"/>
+		<line level="1" texture="GroundConer1" rotate="0"/>
+	</row>
+	
+	<surfaceItem line="1" row="1" itemName="HealPotionA"/>
+	<surfaceItem line="5" row="1" itemName="HealPotionA"/>
+	<surfaceItem line="1" row="5" itemName="HealPotionA"/>
+	<surfaceItem line="5" row="5" itemName="HealPotionA"/>
+	
+	<surfaceItem line="3" row="1" itemName="Ink"/>
+	<surfaceItem line="3" row="5" itemName="Ink"/>
+	<surfaceItem line="1" row="3" itemName="Ink"/>
+	<surfaceItem line="5" row="3" itemName="Ink"/>
+	
+</stage>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allData>
+	
+	<!-- 擋路岩石 -->
+	<object>
+		<itemName>						Blocker1			</itemName>
+		<itemText>						巨大的岩石			</itemText>
+		<type>							NPC					</type>
+		<surfaceItem>					Blocker1			</surfaceItem>
+		<state>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				blocked				</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+		</state>
+	</object>
+	
+	<!-- 柱子 -->
+	<object>
+		<itemName>						Piller				</itemName>
+		<type>							Block				</type>
+		<surfaceItem>					RoundPiller			</surfaceItem>
+	</object>
+	
+	<!-- 技能之書0 -->
+	<object>
+		<itemName>						SPBook0				</itemName>
+		<itemText>						火焰技能書				</itemText>
+		<type>							ITEM					</type>
+		<surfaceItem>					SPBook0				</surfaceItem>
+		<state>
+			<event>
+				<eventType>					removeItem			</eventType>
+				<instant>					true				</instant>
+				<removeType>				self				</removeType>
+			</event>
+			<event>
+				<eventType>					getSpBook			</eventType>
+				<spName>					sp0					</spName>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				spBook0Get			</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+		</state>
+	</object>
+	
+	<!-- 技能之書1 -->
+	<object>
+		<itemName>						SPBook1				</itemName>
+		<itemText>						麻痺技能書			</itemText>
+		<type>							ITEM					</type>
+		<surfaceItem>					SPBook1				</surfaceItem>
+		<state>
+			<event>
+				<eventType>					removeItem			</eventType>
+				<instant>					true				</instant>
+				<removeType>				self				</removeType>
+			</event>
+			<event>
+				<eventType>					getSpBook			</eventType>
+				<spName>					sp1					</spName>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				spBook1Get			</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+		</state>
+	</object>
+	
+	<!-- 技能之書2 -->
+	<object>
+		<itemName>						SPBook2				</itemName>
+		<itemText>						戰鬥技能書		</itemText>
+		<type>							ITEM					</type>
+		<surfaceItem>					SPBook2				</surfaceItem>
+		<state>
+			<event>
+				<eventType>					removeItem			</eventType>
+				<instant>					true				</instant>
+				<removeType>				self				</removeType>
+			</event>
+			<event>
+				<eventType>					getSpBook			</eventType>
+				<spName>					sp2					</spName>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				spBook2Get			</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+		</state>
+	</object>
+	
+	<!-- 技能之書3 -->
+	<object>
+		<itemName>						SPBook3				</itemName>
+		<itemText>						防禦技能書		</itemText>
+		<type>							ITEM					</type>
+		<surfaceItem>					SPBook3				</surfaceItem>
+		<state>
+			<event>
+				<eventType>					removeItem			</eventType>
+				<instant>					true				</instant>
+				<removeType>				self				</removeType>
+			</event>
+			<event>
+				<eventType>					getSpBook			</eventType>
+				<spName>					sp3					</spName>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				spBook3Get			</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+		</state>
+	</object>
+	
+	<!-- 黃金鑰匙 -->
+	<object>
+		<itemName>						GoldenKey			</itemName>
+		<itemText>						綠色的鑰匙			</itemText>
+		<type>							ITEM					</type>
+		<surfaceItem>					GoldenKey			</surfaceItem>
+		<state>
+			<event>
+				<eventType>					removeItem			</eventType>
+				<instant>					true				</instant>
+				<removeType>				self				</removeType>
+			</event>
+			<event>
+				<eventType>					addAsset			</eventType>
+				<assetType>					numGoldenKeys		</assetType>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				goldenKeyGet		</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+		</state>
+	</object>
+	
+	<!-- 銀鑰匙 -->
+	<object>
+		<itemName>						SilverKey			</itemName>
+		<itemText>						藍色的鑰匙			</itemText>
+		<type>							ITEM					</type>
+		<surfaceItem>					SilverKey			</surfaceItem>
+		<state>
+			<event>
+				<eventType>					removeItem			</eventType>
+				<instant>					true				</instant>
+				<removeType>				self				</removeType>
+			</event>
+			<event>
+				<eventType>					addAsset			</eventType>
+				<assetType>					numSilverKeys		</assetType>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				silverKeyGet		</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+		</state>
+	</object>
+	
+	<!-- 木頭鑰匙 -->
+	<object>
+		<itemName>						WoodKey				</itemName>
+		<itemText>						棕色的鑰匙			</itemText>
+		<type>							ITEM					</type>
+		<surfaceItem>					WoodKey				</surfaceItem>
+		<state>
+			<event>
+				<eventType>					removeItem			</eventType>
+				<instant>					true				</instant>
+				<removeType>				self				</removeType>
+			</event>
+			<event>
+				<eventType>					addAsset			</eventType>
+				<assetType>					numWoodKeys			</assetType>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				woodKeyGet			</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+		</state>
+	</object>
+	
+	<!-- 治療藥水A -->
+	<object>
+		<itemName>						HealPotionA			</itemName>
+		<itemText>						回復藥水				</itemText>
+		<type>							ITEM					</type>
+		<surfaceItem>					HealPotionA			</surfaceItem>
+		<state>
+			<event>
+				<eventType>					removeItem			</eventType>
+				<instant>					true				</instant>
+				<removeType>				self				</removeType>
+			</event>
+			<event>
+				<eventType>					addAsset			</eventType>
+				<assetType>					numPotions			</assetType>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				healPotionA			</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+		</state>
+	</object>	
+	
+	<!-- 儲存墨水 -->
+	<object>
+		<itemName>						Ink					</itemName>
+		<itemText>						紀錄墨水				</itemText>
+		<type>							ITEM					</type>
+		<surfaceItem>					Ink					</surfaceItem>
+		<state>
+			<event>
+				<eventType>					removeItem			</eventType>
+				<instant>					true				</instant>
+				<removeType>				self				</removeType>
+			</event>
+			<event>
+				<eventType>					addAsset			</eventType>
+				<assetType>					numInks				</assetType>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				InkGet			</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+		</state>
+	</object>	
+	
+</allData>

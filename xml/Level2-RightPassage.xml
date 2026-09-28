@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stage>
+	<numRows>		5			</numRows>
+	<numLines>		11			</numLines>
+	
+	<row>
+		<line level="4" texture="GroundEdge2"/>
+		<line level="4" texture="GroundEdge2"/>
+		<line level="4" texture="GroundEdge2"/>
+		<line level="4" texture="GroundEdge2"/>
+		<line level="4" texture="GroundEdge2"/>
+		<line level="4" texture="GroundEdge2"/>
+		<line level="4" texture="GroundEdge2"/>
+		<line level="4" texture="GroundEdge2"/>
+		<line level="4" texture="GroundEdge2"/>
+		<line level="4" texture="GroundEdge2"/>
+		<line level="4" texture="GroundEdge2"/>
+	</row>
+	
+	<row>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+	</row>
+	
+	<row>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+	</row>
+	
+	<row>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+	</row>
+	
+	<row>
+		<line level="4" texture="GroundEdge2" rotate="2"/>
+		<line level="4" texture="GroundEdge2" rotate="2"/>
+		<line level="4" texture="GroundEdge2" rotate="2"/>
+		<line level="4" texture="GroundEdge2" rotate="2"/>
+		<line level="4" texture="GroundEdge2" rotate="2"/>
+		<line level="4" texture="GroundEdge2" rotate="2"/>
+		<line level="4" texture="GroundEdge2" rotate="2"/>
+		<line level="4" texture="GroundEdge2" rotate="2"/>
+		<line level="4" texture="GroundEdge2" rotate="2"/>
+		<line level="4" texture="GroundEdge2" rotate="2"/>
+		<line level="4" texture="GroundEdge2" rotate="2"/>
+	</row>
+	
+	<surfaceItem line="3" row="3" itemName="Piller"/>
+	<surfaceItem line="5" row="3" itemName="Piller"/>
+	<surfaceItem line="7" row="3" itemName="Piller"/>
+	<surfaceItem line="9" row="3" itemName="Piller"/>
+	
+	<surfaceItem line="1" row="1" itemName="HealPotionA"/>
+	<surfaceItem line="11" row="1" itemName="HealPotionA"/>
+	<surfaceItem line="1" row="5" itemName="HealPotionA"/>
+	<surfaceItem line="11" row="5" itemName="HealPotionA"/>
+	
+	<surfaceItem line="9" row="2" itemName="MonsterA1"/>
+	<surfaceItem line="9" row="4" itemName="MonsterA1"/>
+	<surfaceItem line="7" row="2" itemName="MonsterL1"/>
+	<surfaceItem line="7" row="4" itemName="MonsterL1"/>
+	<surfaceItem line="5" row="2" itemName="MonsterL1"/>
+	<surfaceItem line="5" row="4" itemName="MonsterL1"/>
+	<surfaceItem line="3" row="2" itemName="MonsterA1"/>
+	<surfaceItem line="3" row="4" itemName="MonsterA1"/>
+	
+	<surfaceItem line="6" row="5" itemName="MonsterG1"/>
+	<surfaceItem line="6" row="1" itemName="MonsterG1"/>
+	<surfaceItem line="8" row="5" itemName="MonsterH1"/>
+	<surfaceItem line="3" row="1" itemName="MonsterH1"/>
+	
+</stage>

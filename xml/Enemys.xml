@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allData>
+		
+	<!-- 怪物 -->
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						RabbitA1				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					RabbitA					</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					圍巾兔						</statesText>
+		<hitPoint>						35							</hitPoint>
+		<damage>						10							</damage>
+		<defence>						6							</defence>
+		<speed>							12							</speed>
+		<exp>							30							</exp>
+		<critChance>					0.10						</critChance>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterM1				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterM				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					胖兔仔						</statesText>
+		<hitPoint>						50							</hitPoint>
+		<damage>						10							</damage>
+		<defence>						10							</defence>
+		<speed>							8							</speed>
+		<exp>							30							</exp>
+		<critChance>					0.10						</critChance>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterD1				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterD				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					粉紅史萊姆						</statesText>
+		<hitPoint>						80							</hitPoint>
+		<damage>						11							</damage>
+		<defence>						6							</defence>
+		<speed>							8							</speed>
+		<exp>							40							</exp>
+		<critChance>					0.10						</critChance>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterD2				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterD				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					有點危險的粉紅史萊姆		</statesText>
+		<hitPoint>						80							</hitPoint>
+		<damage>						11							</damage>
+		<defence>						6							</defence>
+		<speed>							8							</speed>
+		<exp>							70							</exp>
+		<critChance>					0.5						</critChance>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterF1				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterF				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					單眼海盜兔						</statesText>
+		<hitPoint>						75							</hitPoint>
+		<damage>						14							</damage>
+		<defence>						12							</defence>
+		<speed>							12							</speed>
+		<exp>							70							</exp>
+		<critChance>					0.10						</critChance>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterN1				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterN				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					醉醺醺的兔子						</statesText>
+		<hitPoint>						45							</hitPoint>
+		<damage>						14							</damage>
+		<defence>						12							</defence>
+		<speed>							10							</speed>
+		<exp>							50							</exp>
+		<critChance>					0.10						</critChance>
+		<state>			
+			<event>
+				<eventType>					addAsset			</eventType>
+				<isEventAsset>				true				</isEventAsset>
+				<assetType>					drunkRabbit			</assetType>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				drunkRabbitDead		</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+		</state>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterG-Boss				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterG2				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					豬太郎						</statesText>
+		<hitPoint>						170							</hitPoint>
+		<damage>						18							</damage>
+		<defence>						18							</defence>
+		<speed>							12							</speed>
+		<exp>							200							</exp>
+		<critChance>					0.15						</critChance>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterN2				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterN				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					道路保養工						</statesText>
+		<hitPoint>						150							</hitPoint>
+		<damage>						17							</damage>
+		<defence>						17							</defence>
+		<speed>							12							</speed>
+		<exp>							120							</exp>
+		<critChance>					0.10						</critChance>
+		<state>			
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				areaLevelChanged	</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level3				</map>
+				<line>						8					</line>
+				<row>						9					</row>
+				<level>						1					</level>
+			</event>
+		</state>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterE1				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterE				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					貓妖						</statesText>
+		<hitPoint>						100							</hitPoint>
+		<damage>						15							</damage>
+		<defence>						15							</defence>
+		<speed>							15							</speed>
+		<exp>							100							</exp>
+		<critChance>					0.2							</critChance>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterF2				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterF				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					單眼海盜兔						</statesText>
+		<hitPoint>						85							</hitPoint>
+		<damage>						21							</damage>
+		<defence>						12							</defence>
+		<speed>							15							</speed>
+		<exp>							90							</exp>
+		<critChance>					0.10						</critChance>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterJ1				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterJ				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					武士兔						</statesText>
+		<hitPoint>						120							</hitPoint>
+		<damage>						24							</damage>
+		<defence>						14							</defence>
+		<speed>							20							</speed>
+		<exp>							180							</exp>
+		<critChance>					0.10						</critChance>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterB1				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterB				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					雙角野獸						</statesText>
+		<hitPoint>						150							</hitPoint>
+		<damage>						22							</damage>
+		<defence>						17							</defence>
+		<speed>							17							</speed>
+		<exp>							180							</exp>
+		<critChance>					0.10						</critChance>
+	</object>	
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterH1				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterH				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					藍帽魔術師						</statesText>
+		<hitPoint>						150							</hitPoint>
+		<damage>						22							</damage>
+		<defence>						20							</defence>
+		<speed>							35							</speed>
+		<exp>							250							</exp>
+		<critChance>					0.10						</critChance>
+	</object>	
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterO1				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterO				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					紅帽魔術師						</statesText>
+		<hitPoint>						150							</hitPoint>
+		<damage>						35							</damage>
+		<defence>						20							</defence>
+		<speed>							24							</speed>
+		<exp>							250							</exp>
+		<critChance>					0.10						</critChance>
+	</object>
+	
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterK1				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterK				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					史萊姆-蔬菜口味				</statesText>
+		<hitPoint>						200							</hitPoint>
+		<damage>						20							</damage>
+		<defence>						20							</defence>
+		<speed>							20							</speed>
+		<exp>							200							</exp>
+		<critChance>					0.20						</critChance>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterB2				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterBB				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					狂暴雙角野獸						</statesText>
+		<hitPoint>						270							</hitPoint>
+		<damage>						25							</damage>
+		<defence>						20							</defence>
+		<speed>							25							</speed>
+		<exp>							300							</exp>
+		<critChance>					0.3						</critChance>
+		<state>	
+			<event>
+				<eventType>					addItem				</eventType>
+				<itemName>					SPBook0				</itemName>
+				<addType>					self				</addType>
+			</event>
+		</state>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterB3				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterBB				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					狂暴雙角野獸						</statesText>
+		<hitPoint>						270							</hitPoint>
+		<damage>						25							</damage>
+		<defence>						20							</defence>
+		<speed>							25							</speed>
+		<exp>							300							</exp>
+		<critChance>					0.3						</critChance>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterA1				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterA				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					子貓妖						</statesText>
+		<hitPoint>						180							</hitPoint>
+		<damage>						35							</damage>
+		<defence>						20							</defence>
+		<speed>							25							</speed>
+		<exp>							250							</exp>
+		<critChance>					0.1						</critChance>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterL1				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterL					</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					藍貓妖						</statesText>
+		<hitPoint>						180							</hitPoint>
+		<damage>						20							</damage>
+		<defence>						35							</defence>
+		<speed>							25							</speed>
+		<exp>							250							</exp>
+		<critChance>					0.1						</critChance>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						MonsterG1				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterG				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					小豬太郎						</statesText>
+		<hitPoint>						250							</hitPoint>
+		<damage>						25							</damage>
+		<defence>						35							</defence>
+		<speed>							20							</speed>
+		<exp>							300							</exp>
+		<critChance>					0.15						</critChance>
+	</object>
+	
+	<!-- 瘋狂電鋸魔1 -->
+	<object>
+		<itemName>						MonsterI-Boss1			</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterI				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					瘋狂電鋸魔						</statesText>
+		<hitPoint>						300							</hitPoint>
+		<damage>						40							</damage>
+		<defence>						30							</defence>
+		<speed>							25							</speed>
+		<exp>							500							</exp>
+		<critChance>					0.2						</critChance>
+		<state>			
+			<event>
+				<eventType>					removeItem			</eventType>
+				<map>						Level2				</map>
+				<line>						4					</line>
+				<row>						6					</row>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-LeftRoom				</map>
+				<line>						2					</line>
+				<row>						4					</row>
+				<level>						-1					</level>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-LeftRoom				</map>
+				<line>						2					</line>
+				<row>						6					</row>
+				<level>						-1					</level>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-LeftRoom				</map>
+				<line>						9					</line>
+				<row>						4					</row>
+				<level>						-1					</level>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-LeftRoom				</map>
+				<line>						9					</line>
+				<row>						6					</row>
+				<level>						-1					</level>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-LeftRoom				</map>
+				<line>						8					</line>
+				<row>						5					</row>
+				<level>						1					</level>
+			</event>
+			<event>
+				<eventType>					addItem				</eventType>
+				<itemName>					SPBook0				</itemName>
+				<addType>					self				</addType>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				level2-miniBossKilled		</dialogLabel>
+				<dialogNum>					2					</dialogNum>
+			</event>
+		</state>
+	</object>
+		
+	<!-- 瘋狂電鋸魔2 -->
+	<object>
+		<itemName>						MonsterI-Boss2			</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterI				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					瘋狂電鋸魔						</statesText>
+		<hitPoint>						300							</hitPoint>
+		<damage>						30							</damage>
+		<defence>						40							</defence>
+		<speed>							25							</speed>
+		<exp>							500							</exp>
+		<critChance>					0.2						</critChance>
+		<state>			
+			<event>
+				<eventType>					removeItem			</eventType>
+				<map>						Level2				</map>
+				<line>						6					</line>
+				<row>						6					</row>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-RightRoom				</map>
+				<line>						8					</line>
+				<row>						4					</row>
+				<level>						-1					</level>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-RightRoom				</map>
+				<line>						8					</line>
+				<row>						6					</row>
+				<level>						-1					</level>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-RightRoom				</map>
+				<line>						1					</line>
+				<row>						4					</row>
+				<level>						-1					</level>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-RightRoom				</map>
+				<line>						1					</line>
+				<row>						6					</row>
+				<level>						-1					</level>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-RightRoom				</map>
+				<line>						2					</line>
+				<row>						5					</row>
+				<level>						3					</level>
+			</event>
+			<event>
+				<eventType>					addItem				</eventType>
+				<itemName>					SPBook0				</itemName>
+				<addType>					self				</addType>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				level2-miniBossKilled		</dialogLabel>
+				<dialogNum>					2					</dialogNum>
+			</event>
+		</state>
+	</object>
+	
+	<!-- 瘋狂電鋸魔3 -->
+	<object>
+		<itemName>						MonsterI-Boss3			</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterI				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					瘋狂電鋸魔						</statesText>
+		<hitPoint>						3							</hitPoint>
+		<damage>						35							</damage>
+		<defence>						35							</defence>
+		<speed>							25							</speed>
+		<exp>							500							</exp>
+		<critChance>					0.2						</critChance>
+		<state>			
+			<event>
+				<eventType>					removeItem			</eventType>
+				<map>						Level2				</map>
+				<line>						6					</line>
+				<row>						4					</row>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-NorthRoom	</map>
+				<line>						4					</line>
+				<row>						2					</row>
+				<level>						2					</level>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-NorthRoom				</map>
+				<line>						8					</line>
+				<row>						2					</row>
+				<level>						2					</level>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-NorthRoom				</map>
+				<line>						1					</line>
+				<row>						5					</row>
+				<level>						-1					</level>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-NorthRoom				</map>
+				<line>						11					</line>
+				<row>						5					</row>
+				<level>						-1					</level>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-NorthRoom				</map>
+				<line>						3					</line>
+				<row>						6					</row>
+				<level>						-1					</level>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level2-NorthRoom				</map>
+				<line>						9					</line>
+				<row>						6					</row>
+				<level>						-1					</level>
+			</event>
+			<event>
+				<eventType>					addItem				</eventType>
+				<itemName>					SPBook0				</itemName>
+				<addType>					self				</addType>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				level2-miniBossKilled		</dialogLabel>
+				<dialogNum>					2					</dialogNum>
+			</event>
+		</state>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						FinalBoss				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterC				</surfaceItem>
+		<applyOutline type="Boolean">	false					</applyOutline>
+		<statesText>					大法師					</statesText>
+		<hitPoint>						450							</hitPoint>
+		<damage>						39							</damage>
+		<defence>						35							</defence>
+		<speed>							42							</speed>
+		<exp>							1							</exp>
+		<critChance>					0.15						</critChance>
+		<state>	
+			<event>
+				<eventType>					gameEnd				</eventType>
+			</event>
+		</state>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						FakeFinalBoss				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterC				</surfaceItem>
+		<applyOutline type="Boolean">	false					</applyOutline>
+		<statesText>					大法師					</statesText>
+		<hitPoint>						4							</hitPoint>
+		<damage>						39							</damage>
+		<defence>						35							</defence>
+		<speed>							42							</speed>
+		<exp>							1							</exp>
+		<critChance>					0.15						</critChance>
+		<state>	
+			<event>
+				<eventType>					gameEnd				</eventType>
+			</event>
+		</state>
+	</object>
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						DamageGuard				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterO				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					力量的結界師					</statesText>
+		<hitPoint>						200							</hitPoint>
+		<damage>						40							</damage>
+		<defence>						26							</defence>
+		<speed>							30							</speed>
+		<exp>							300							</exp>
+		<critChance>					0.10						</critChance>
+		<state>
+			<event>
+				<eventType>					changeEnemyState				</eventType>
+				<itemName>					FinalBoss						</itemName>
+				<stateType>					damage							</stateType>
+				<value>						-10								</value>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				bossDamageLowered	</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+		</state>
+	</object>	
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						HitPointGuard				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterO				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					生命的結界師					</statesText>
+		<hitPoint>						200							</hitPoint>
+		<damage>						30							</damage>
+		<defence>						26							</defence>
+		<speed>							30							</speed>
+		<exp>							300							</exp>
+		<critChance>					0.10						</critChance>
+		<state>
+			<event>
+				<eventType>					changeEnemyState				</eventType>
+				<itemName>					FinalBoss						</itemName>
+				<stateType>					hitPoint							</stateType>
+				<value>						-100								</value>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				bossHitPointLowered	</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+		</state>
+	</object>	
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						DefenceGuard				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterH				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					防禦的結界師					</statesText>
+		<hitPoint>						200							</hitPoint>
+		<damage>						30							</damage>
+		<defence>						36							</defence>
+		<speed>							30							</speed>
+		<exp>							300							</exp>
+		<critChance>					0.10						</critChance>
+		<state>
+			<event>
+				<eventType>					changeEnemyState				</eventType>
+				<itemName>					FinalBoss						</itemName>
+				<stateType>					defence							</stateType>
+				<value>						-10								</value>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				bossDefenceLowered	</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+		</state>
+	</object>	
+	
+	<!-- 圍巾兔 -->
+	<object>
+		<itemName>						SpeedGuard				</itemName>
+		<type>							ENEMY					</type>
+		<surfaceItem>					MonsterH				</surfaceItem>
+		<applyOutline type="Boolean">	true					</applyOutline>
+		<statesText>					速度的結界師					</statesText>
+		<hitPoint>						200							</hitPoint>
+		<damage>						30							</damage>
+		<defence>						26							</defence>
+		<speed>							40							</speed>
+		<exp>							300							</exp>
+		<critChance>					0.10						</critChance>
+		<state>
+			<event>
+				<eventType>					changeEnemyState				</eventType>
+				<itemName>					FinalBoss						</itemName>
+				<stateType>					speed							</stateType>
+				<value>						-10								</value>
+			</event>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				bossSpeedLowered	</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+		</state>
+	</object>	
+		
+</allData>

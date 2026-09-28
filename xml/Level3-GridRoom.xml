@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stage>
+	<numLines>		6			</numLines>
+	<numRows>		8			</numRows>
+	
+	<row>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="1" texture="GroundConer1" rotate="2"/>
+		<line level="1" texture="GroundConer1" rotate="1"/>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="-1" texture="PillerTexture1"/>
+	</row>
+	<row>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="1" texture="GroundConer1" rotate="3"/>
+		<line level="1" texture="GroundConer1" rotate="0"/>
+		<line level="4" texture="Ground4"/>
+		<line level="3" texture="Ground4"/>
+	</row>
+	<row>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="4" texture="GroundConer7" rotate="2"/>
+		<line level="4" texture="GroundConer7" rotate="1"/>
+		<line level="1" texture="Ground4"/>
+		<line level="3" texture="Ground4"/>
+	</row>
+	<row>
+		<line level="6" texture="BrickRoad3"/>
+		<line level="7" texture="BrickRoad3"/>
+		<line level="4" texture="GroundConer7" rotate="3"/>
+		<line level="4" texture="GroundConer7" rotate="0"/>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="-1" texture="PillerTexture1"/>
+	</row>
+	<row>
+		<line level="6" texture="BrickRoad3"/>
+		<line level="1" texture="BrickRoad3"/>
+		<line level="7" texture="GroundConer6" rotate="2"/>
+		<line level="7" texture="GroundConer6" rotate="1"/>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="-1" texture="PillerTexture1"/>
+	</row>
+	<row>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="7" texture="GroundConer6" rotate="3"/>
+		<line level="7" texture="GroundConer6" rotate="0"/>
+		<line level="10" texture="Ground5"/>
+		<line level="9" texture="Ground5"/>
+	</row>
+	<row>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="10" texture="GroundConer8" rotate="2"/>
+		<line level="10" texture="GroundConer8" rotate="1"/>
+		<line level="1" texture="Ground5"/>
+		<line level="9" texture="Ground5"/>
+	</row>
+	<row>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="10" texture="GroundConer8" rotate="3"/>
+		<line level="10" texture="GroundConer8" rotate="0"/>
+		<line level="-1" texture="PillerTexture1"/>
+		<line level="-1" texture="PillerTexture1"/>
+	</row>
+	
+	<surfaceItem line="4" row="3" itemName="MonsterB1"/>
+	<surfaceItem line="3" row="5" itemName="MonsterB1"/>
+	<surfaceItem line="4" row="7" itemName="MonsterB1"/>
+	
+	<surfaceItem line="6" row="3" itemName="HealPotionA"/>
+	<surfaceItem line="1" row="5" itemName="HealPotionA"/>
+	<surfaceItem line="6" row="7" itemName="HealPotionA"/>
+	
+</stage>

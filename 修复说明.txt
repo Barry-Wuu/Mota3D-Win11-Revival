@@ -1,0 +1,47 @@
+3D 魔塔（MTR）复活修复说明
+========================================
+
+【症状】
+双击 play.bat 后，Flash 显示游戏天堂启动画面，进度条永远停在
+“載入 XML 中 / 0KB / 0KB”，进不去游戏。
+
+【真正的病根】
+主程序在加载序列的第 16 位，会去拉取一份“广告横幅数据”：
+
+    http://web.i-gamer.net/adv/AdvXml.xml
+
+这是原厂（游戏天堂）服务器上的绝对地址。该服务器 2024 年已停止服务，
+Flash 因缺少 crossdomain 策略文件抛出 SecurityError #2048，而程序全程
+没有任何错误处理 —— 整条加载链当场断裂，游戏永远卡在启动界面。
+这与“2023 年还能玩、2024 年就不行了”的现象完全吻合。
+
+【修复手法】
+1. 给主程序 play.swf 打“等长搭桥”补丁
+   SWF 的 ABC 字符串池里，该 URL 以“长度 = 37”的前缀存储。
+   用等长的本地相对路径替换它，长度前缀不变，SWF 结构无损：
+
+       http://web.i-gamer.net/adv/AdvXml.xml    （37 字节）
+    →  xml/mirror/web-i-gamer.net/AdvXml.xml     （37 字节）
+
+   原文件已备份至：D:\B++\WorkBuddy\mota3D_swf_backup\play.swf
+
+2. 在本地补上这份数据
+   xml\mirror\web-i-gamer.net\AdvXml.xml         5 个广告位，合法空壳内容
+   xml\mirror\web-i-gamer.net\ad_placeholder.png 1x1 全透明占位图
+
+3. xml\MapIndex.xml
+   去掉数值两端多余的制表符，避免拼出带控制字符的非法 URL。
+
+【怎么玩】
+直接双击 play.bat 即可。
+注意：必须走 play.bat（它会先起一个本机 HTTP 服务）。
+不要用 file:// 直接双击 SWF —— Flash 在 file:// 协议下禁止读取同目录资源。
+
+【验证结果】
+加载链 77 项资源全部返回 200，零异常，成功进入开始菜单
+（讀取進度 / 新的遊戲 / 說明 / 魔塔怪物 / 遊戲天堂）。
+
+【关于 mota3D.swf】
+这是 17yy 转载版，内部比原版多出一层名为 case/in 的加壳代码，
+在本机播放器中只渲染白屏、不发起任何请求（HTTP 与 file:// 均如此），
+属于该转载包自身的问题。能正常运行的是原版 play.swf。

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stage>
+	<numRows>		7			</numRows>
+	<numLines>		7			</numLines>
+	
+	<row>
+		<line level="1" texture="GroundConer8" rotate="2"/>
+		<line level="1" texture="GroundEdge8" rotate="2"/>
+		<line level="1" texture="GroundEdge8" rotate="2"/>
+		<line level="1" texture="GroundEdge8" rotate="2"/>
+		<line level="1" texture="GroundEdge8" rotate="2"/>
+		<line level="1" texture="GroundEdge8" rotate="2"/>
+		<line level="1" texture="GroundConer8" rotate="1"/>
+	</row>
+	<row>
+		<line level="1" texture="GroundEdge8" rotate="3"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="GroundEdge8" rotate="1"/>
+	</row>
+	<row>
+		<line level="1" texture="GroundEdge8" rotate="3"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="MagicCircle7"/>
+		<line level="1" texture="MagicCircle8"/>
+		<line level="1" texture="MagicCircle9"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="GroundEdge8" rotate="1"/>
+	</row>
+	<row>
+		<line level="1" texture="GroundEdge8" rotate="3"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="MagicCircle4"/>
+		<line level="1" texture="MagicCircle5"/>
+		<line level="1" texture="MagicCircle6"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="GroundEdge8" rotate="1"/>
+	</row>
+	<row>
+		<line level="1" texture="GroundEdge8" rotate="3"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="MagicCircle1"/>
+		<line level="1" texture="MagicCircle2"/>
+		<line level="1" texture="MagicCircle3"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="GroundEdge8" rotate="1"/>
+	</row>
+	<row>
+		<line level="1" texture="GroundEdge8" rotate="3"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="Ground1"/>
+		<line level="1" texture="GroundEdge8" rotate="1"/>
+	</row>
+	<row>
+		<line level="1" texture="GroundConer8" rotate="3"/>
+		<line level="1" texture="GroundEdge8" rotate="0"/>
+		<line level="1" texture="GroundEdge8" rotate="0"/>
+		<line level="1" texture="GroundEdge8" rotate="0"/>
+		<line level="1" texture="GroundEdge8" rotate="0"/>
+		<line level="1" texture="GroundEdge8" rotate="0"/>
+		<line level="1" texture="GroundConer8" rotate="0"/>
+	</row>
+	
+	
+	<surfaceItem line="4" row="4" itemName="FinalBoss"/>
+	
+	<surfaceItem line="3" row="3" itemName="DamageGuard"/>
+	<surfaceItem line="5" row="5" itemName="HitPointGuard"/>
+	<surfaceItem line="3" row="5" itemName="DefenceGuard"/>
+	<surfaceItem line="5" row="3" itemName="SpeedGuard"/>
+	
+</stage>

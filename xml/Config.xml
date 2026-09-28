@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allData>
+	<playerStartStatesEasy>
+		<hitPoint>				60				</hitPoint>
+		<damage>				12				</damage>
+		<defence>				9				</defence>
+		<speed>					12				</speed>		
+		<levelSkillPoint>		6				</levelSkillPoint>	
+		<level>					1				</level>
+		<exp>					0				</exp>
+		<skillPoint>			0				</skillPoint>
+		<numWoodKeys>			0				</numWoodKeys>
+		<numSilverKeys>			0				</numSilverKeys>
+		<numGoldenKeys>			0				</numGoldenKeys>
+		<numPotions>			0				</numPotions>
+		<numInks>				0				</numInks>
+		<sp0Level>				0				</sp0Level>
+		<sp1Level>				0				</sp1Level>
+		<sp2Level>				0				</sp2Level>
+		<sp3Level>				0				</sp3Level>
+	</playerStartStatesEasy>
+	
+	<playerStartStatesEasyLevel2>
+		<hitPoint>				100				</hitPoint>
+		<damage>				24				</damage>
+		<defence>				22				</defence>
+		<speed>					15				</speed>		
+		<levelSkillPoint>		6				</levelSkillPoint>	
+		<level>					7				</level>
+		<exp>					1350			</exp>
+		<skillPoint>			0				</skillPoint>
+		<numWoodKeys>			1				</numWoodKeys>
+		<numSilverKeys>			1				</numSilverKeys>
+		<numGoldenKeys>			1				</numGoldenKeys>
+		<numPotions>			2				</numPotions>
+		<numInks>				2				</numInks>
+		<sp0Level>				2				</sp0Level>
+		<sp1Level>				1				</sp1Level>
+		<sp2Level>				1				</sp2Level>
+		<sp3Level>				1				</sp3Level>
+	</playerStartStatesEasyLevel2>
+	
+	<playerStartStatesEasyLevel3>
+		<hitPoint>				150				</hitPoint>
+		<damage>				32				</damage>
+		<defence>				25				</defence>
+		<speed>					32				</speed>		
+		<levelSkillPoint>		6				</levelSkillPoint>	
+		<level>					15				</level>
+		<exp>					6000			</exp>
+		<skillPoint>			0				</skillPoint>
+		<numWoodKeys>			1				</numWoodKeys>
+		<numSilverKeys>			1				</numSilverKeys>
+		<numGoldenKeys>			1				</numGoldenKeys>
+		<numPotions>			2				</numPotions>
+		<numInks>				2				</numInks>
+		<sp0Level>				2				</sp0Level>
+		<sp1Level>				1				</sp1Level>
+		<sp2Level>				1				</sp2Level>
+		<sp3Level>				1				</sp3Level>
+	</playerStartStatesEasyLevel3>
+	
+	<playerStartStatesHard>
+		<hitPoint>				55				</hitPoint>
+		<damage>				12				</damage>
+		<defence>				8				</defence>
+		<speed>					12				</speed>		
+		<levelSkillPoint>		5				</levelSkillPoint>	
+		<level>					1				</level>
+		<exp>					0				</exp>
+		<skillPoint>			0				</skillPoint>
+		<numWoodKeys>			0				</numWoodKeys>
+		<numSilverKeys>			0				</numSilverKeys>
+		<numGoldenKeys>			0				</numGoldenKeys>
+		<numPotions>			0				</numPotions>
+		<numInks>				0				</numInks>
+		<sp0Level>				0				</sp0Level>
+		<sp1Level>				0				</sp1Level>
+		<sp2Level>				0				</sp2Level>
+		<sp3Level>				0				</sp3Level>
+	</playerStartStatesHard>
+	
+	<playerStartStatesHardLevel2>
+		<hitPoint>				85				</hitPoint>
+		<damage>				22				</damage>
+		<defence>				18				</defence>
+		<speed>					14				</speed>		
+		<levelSkillPoint>		5				</levelSkillPoint>	
+		<level>					7				</level>
+		<exp>					1350			</exp>
+		<skillPoint>			0				</skillPoint>
+		<numWoodKeys>			1				</numWoodKeys>
+		<numSilverKeys>			1				</numSilverKeys>
+		<numGoldenKeys>			1				</numGoldenKeys>
+		<numPotions>			2				</numPotions>
+		<numInks>				2				</numInks>
+		<sp0Level>				2				</sp0Level>
+		<sp1Level>				1				</sp1Level>
+		<sp2Level>				1				</sp2Level>
+		<sp3Level>				1				</sp3Level>
+	</playerStartStatesHardLevel2>
+	
+	<playerStartStatesHardLevel3>
+		<hitPoint>				145				</hitPoint>
+		<damage>				27				</damage>
+		<defence>				20				</defence>
+		<speed>					27				</speed>		
+		<levelSkillPoint>		5				</levelSkillPoint>	
+		<level>					15				</level>
+		<exp>					6000			</exp>
+		<skillPoint>			0				</skillPoint>
+		<numWoodKeys>			1				</numWoodKeys>
+		<numSilverKeys>			1				</numSilverKeys>
+		<numGoldenKeys>			1				</numGoldenKeys>
+		<numPotions>			2				</numPotions>
+		<numInks>				2				</numInks>
+		<sp0Level>				2				</sp0Level>
+		<sp1Level>				1				</sp1Level>
+		<sp2Level>				1				</sp2Level>
+		<sp3Level>				1				</sp3Level>
+	</playerStartStatesHardLevel3>
+	
+	<!--
+	-->
+
+</allData>

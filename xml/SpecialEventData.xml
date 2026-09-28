@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allData>
+	<specialEvent>
+		<eventName>				test				</eventName>
+		<currentValue>			0					</currentValue>
+		<triggerValue>			1					</triggerValue>				
+		<event>
+			<eventType>					addItem				</eventType>
+			<itemName>					RabbitA2			</itemName>
+			<map>						Level0				</map>
+			<line>						3					</line>
+			<row>						3					</row>
+		</event>
+	</specialEvent>
+</allData>

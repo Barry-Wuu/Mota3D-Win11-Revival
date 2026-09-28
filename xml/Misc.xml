@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allData>
+	
+	<!--開關區域-->	
+	<!--  -->
+	<object>
+		<itemName>						Switcher1			</itemName>
+		<itemText>						迷樣的開關			</itemText>
+		<type>							NPC					</type>
+		<surfaceItem>					SwitcherA			</surfaceItem>
+		<state>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				switcherA			</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level3				</map>
+				<line>						4					</line>
+				<row>						4					</row>
+				<level>						6					</level>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level3				</map>
+				<line>						4					</line>
+				<row>						5					</row>
+				<level>						6					</level>
+			</event>
+			<event>
+				<eventType>					removeItem			</eventType>
+				<removeType>				self				</removeType>
+			</event>
+		</state>		
+	</object>
+	
+	<!--Level3-->	
+	<object>
+		<itemName>						Level3Switcher1		</itemName>
+		<itemText>						迷樣的開關			</itemText>
+		<type>							NPC					</type>
+		<surfaceItem>					SwitcherA			</surfaceItem>
+		<state>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				Level3Switcher		</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level3-GridRoom		</map>
+				<line>						5					</line>
+				<row>						2					</row>
+				<level>						3					</level>
+			</event>
+			<event>
+				<eventType>					addItem				</eventType>
+				<itemName>					MonsterB1			</itemName>
+				<map>						Level3-Passage1		</map>
+				<line>						5					</line>
+				<row>						4					</row>
+			</event>	
+			<event>
+				<eventType>					removeItem			</eventType>
+				<removeType>				self				</removeType>
+			</event>
+		</state>		
+	</object>
+	<object>
+		<itemName>						Level3Switcher2		</itemName>
+		<itemText>						迷樣的開關			</itemText>
+		<type>							NPC					</type>
+		<surfaceItem>					SwitcherA			</surfaceItem>
+		<state>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				Level3Switcher		</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level3-GridRoom		</map>
+				<line>						5					</line>
+				<row>						3					</row>
+				<level>						3					</level>
+			</event>
+			<event>
+				<eventType>					addItem				</eventType>
+				<itemName>					MonsterB1			</itemName>
+				<map>						Level3-Passage1		</map>
+				<line>						2					</line>
+				<row>						6					</row>
+			</event>	
+			<event>
+				<eventType>					removeItem			</eventType>
+				<removeType>				self				</removeType>
+			</event>
+		</state>		
+	</object>
+	<object>
+		<itemName>						Level3Switcher3		</itemName>
+		<itemText>						迷樣的開關			</itemText>
+		<type>							NPC					</type>
+		<surfaceItem>					SwitcherA			</surfaceItem>
+		<state>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				Level3Switcher		</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level3-GridRoom		</map>
+				<line>						2					</line>
+				<row>						4					</row>
+				<level>						6					</level>
+			</event>
+			<event>
+				<eventType>					addItem				</eventType>
+				<itemName>					MonsterB1			</itemName>
+				<map>						Level3-Passage1		</map>
+				<line>						8					</line>
+				<row>						6					</row>
+			</event>	
+			<event>
+				<eventType>					removeItem			</eventType>
+				<removeType>				self				</removeType>
+			</event>
+		</state>		
+	</object>
+	<object>
+		<itemName>						Level3Switcher4		</itemName>
+		<itemText>						迷樣的開關			</itemText>
+		<type>							NPC					</type>
+		<surfaceItem>					SwitcherA			</surfaceItem>
+		<state>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				Level3Switcher		</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level3-GridRoom		</map>
+				<line>						2					</line>
+				<row>						5					</row>
+				<level>						6					</level>
+			</event>
+			<event>
+				<eventType>					addItem				</eventType>
+				<itemName>					MonsterB1			</itemName>
+				<map>						Level3-Passage1		</map>
+				<line>						2					</line>
+				<row>						4					</row>
+			</event>	
+			<event>
+				<eventType>					removeItem			</eventType>
+				<removeType>				self				</removeType>
+			</event>
+		</state>		
+	</object>
+	<object>
+		<itemName>						Level3Switcher5		</itemName>
+		<itemText>						迷樣的開關			</itemText>
+		<type>							NPC					</type>
+		<surfaceItem>					SwitcherA			</surfaceItem>
+		<state>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				Level3Switcher		</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level3-GridRoom		</map>
+				<line>						5					</line>
+				<row>						6					</row>
+				<level>						9					</level>
+			</event>
+			<event>
+				<eventType>					addItem				</eventType>
+				<itemName>					MonsterB1			</itemName>
+				<map>						Level3-Passage1		</map>
+				<line>						8					</line>
+				<row>						4					</row>
+			</event>	
+			<event>
+				<eventType>					removeItem			</eventType>
+				<removeType>				self				</removeType>
+			</event>
+		</state>		
+	</object>
+	<object>
+		<itemName>						Level3Switcher6		</itemName>
+		<itemText>						迷樣的開關			</itemText>
+		<type>							NPC					</type>
+		<surfaceItem>					SwitcherA			</surfaceItem>
+		<state>
+			<event>
+				<eventType>					dialog				</eventType>
+				<dialogLabel>				Level3Switcher		</dialogLabel>
+				<dialogNum>					1					</dialogNum>
+			</event>
+			<event>
+				<eventType>					changeAreaLevel		</eventType>
+				<map>						Level3-GridRoom		</map>
+				<line>						5					</line>
+				<row>						7					</row>
+				<level>						9					</level>
+			</event>
+			<event>
+				<eventType>					addItem				</eventType>
+				<itemName>					MonsterB1			</itemName>
+				<map>						Level3-Passage1		</map>
+				<line>						5					</line>
+				<row>						6					</row>
+			</event>	
+			<event>
+				<eventType>					removeItem			</eventType>
+				<removeType>				self				</removeType>
+			</event>
+		</state>		
+	</object>
+	
+</allData>
